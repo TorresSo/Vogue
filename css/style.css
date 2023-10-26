@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,800;1,700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0
+    
+}
+
+body{
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+}
+
+header{
+    width: 100%;
+    
+    background-color: black;
+    margin: 0px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+header h1{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-family:'Poppins', sans-serif;
+    font-style: italic;
+    font-weight: 700;
+}
+
+header h1 span {
+    color: #531388;
+}
+header nav ul{
+    list-style: none;
+}
+header nav ul li{
+    
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    font-size: 15px;
+
+
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-family:'Poppins', sans-serif;
+    font-style: italic;
+    font-weight: 700;
+}
+.span{
+    font-size: 54px;
+    font-family:'Poppins', sans-serif;
+    font-style: italic;
+    font-weight: 700;
+}
+header nav li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+/*----------------------------------Inicio------------------------*/
+.h2-arranque h2{
+    background-color: #0a0a0a;
+    color: azure;
+    text-align: center;
+    padding: 10px;
+}
+
+.descrpicion{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center
+
+}
+
+.descrpicion img{
+    width: 100%;
+    height: 100%;
+}
+.descrpicion h3 a{
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+    background-color: #0a0a0a;
+    color: white;
+    width: 150px;
+    padding: 5px;
+    text-align: center;
+    
+}
+
+.descrpicion h3{
+   height: 140px;
+    padding: 10px;
+    padding-right: 135px;
+}
+
+main section h2{
+    text-decoration: none;
+} 
+
+.barra:hover{
+    background-color: #636364;
+}
+.barra:active{
+    background-color: #7c7c81;
+}
+
+/*--------------------GALERIA------------------*/
+
+.grid-galeria{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr  ;
+    grid-auto-rows: 250px;
+    gap: 15px;
+    
+}
+
+.grid-galeria div{
+    position: relative;
+    
+}
+
+.grid-galeria h3{
+    
+    position: absolute;
+    bottom: 0;
+    background-color: #0a0a0a81;
+    color: white;
+    width: 100%;
+    padding: 5px;
+    
+    
+}
+
+/*-------------------decoracion texto---------*/
+
+.btn-inicio:hover{
+    background-color: #636364;
+}
+.btn-inicio:active{
+    background-color: rgb(99, 109, 117);
+}
+
+
+.grid-galeria div a{
+    text-decoration: none;
+    color: white;
+}
+
+.grid-galeria div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.img-1{
+    grid-column: span 4;
+}
+
+.img-2{
+    grid-row: span 3;
+}
+.img-3{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+
+/*---------------------------Ropa------------------------*/
+.pro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    font-size: 30px;
+    padding: 15px;
+    
+}
+.productos{
+    margin: center;
+    width: 100%;
+    display: flex;
+    padding: 10px;
+}
+
+.productos div{
+    margin: auto;
+    display: inline-block;
+    border: 2px solid black;
+    width: 220px;
+    height: 400px;
+    
+    text-align: center;
+}
+.productos div h3{
+    margin: 10px 0 10px 0;
+}
+
+.productos div a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
+
+.productos div img{
+    width: 220px;
+    height: 300px;
+}
+
+
+.titulo-nosotros h2{
+    margin: 40px;
+    text-align: center;
+    }
+.nostross {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.grid-container{
+    border: solid 4px #fa0000;
+    margin: 5px;
+    display: grid;
+    grid-auto-rows: 200px;
+    grid-template-rows: 200px 200px 200px; 
+
+
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+} 
+
+.grid-container div{
+    border: solid 2px #fa0000;
+    background-color: antiquewhite;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+.primer-item{
+    grid-column: 1 / 3;
+    
+}
+.tercer-item {
+    grid-row: 2 / 4;
+}
+.noveno-item {
+    grid-column: 2 / 4;
+}
+
+/*----------------------Ropa hombre----------------------*/
+.remeras{
+    text-align: center;
+    background-color: #0a0a0a;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+.all{
+    margin:auto;
+    width: 100%;
+    display: flex;
+    padding: 5px;
+    border: 10px;
+    
+    
+}
+
+.all div{
+   margin: auto;
+    display: inline-block;
+    border: 2px solid black;
+    width: 240px;
+    height: 380px;
+    text-align: center;
+    
+    
+}
+.all div a{
+   
+    text-decoration: none;
+    color: white;
+    background-color: #0a0a0a;
+    padding: 3px;
+}
+.all div img{
+    width: 100%;
+    height: 340px;
+    border: 20px;
+}
+
+
+/*------------------footer---------------*/
+
+.pie{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px;
+    background-color: #3685b9;
+    color: rgb(19, 18, 18);
+    width: 100%;
+    height: 100%;
+}
+
+/*--------------------------Media query---------------------------*/
+@media screen and (max-width:800px){
+    .prod1 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+   
+}
+@media screen and (max-width:650px) {
+    header{
+        flex-direction: column;
+        position: static;
+    }
+    header nav ul{
+        flex-direction: column;
+        text-align: center;
+    }
+    header nav ul li{
+        margin: 0;
+    }
+}
+@media screen  and (max-width:582px){
+    header{
+        flex-direction: column;
+        position: static;
+    }
+    header nav ul{
+        flex-direction: column;
+        text-align: center;
+    }
+    header nav ul li{
+        margin: 0;
+    }
+}
+
+@media screen  and (max-width:500px){
+    header{
+        flex-direction: column;
+        position: static;
+    }
+    header nav ul{
+        flex-direction: column;
+        text-align: center;
+    }
+    header nav ul li{
+        margin: 0;
+    }
+}
+
