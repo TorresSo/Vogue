@@ -415,6 +415,7 @@ main section h2{
     color: rgb(19, 18, 18);
     width: 100%;
     height: 100%;
+    padding-top: 20px;
 }
 .pie-title{
     font-size: 30px;
@@ -423,7 +424,7 @@ main section h2{
     
 }
 .span-pie{
-    color: #8b08e2;
+    color: #fdf9ff;
 }
 .pie-title2{
     font-size: 15px;
@@ -432,7 +433,7 @@ main section h2{
 
 }
 .pie-title2 a{
-    color: rgb(158, 9, 245);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 /*-------------------FONTS-------------------*/
@@ -441,6 +442,12 @@ main section h2{
 }
 
 /*--------------------------Media query---------------------------*/
+
+
+
+
+
+
 @media screen and (max-width:800px){
     .prod1 {
         flex-direction: column;
@@ -449,44 +456,5 @@ main section h2{
 
    
 }
-@media screen and (max-width:650px) {
-    header{
-        flex-direction: column;
-        position: static;
-    }
-    header nav ul{
-        flex-direction: column;
-        text-align: center;
-    }
-    header nav ul li{
-        margin: 0;
-    }
-}
-@media screen  and (max-width:582px){
-    header{
-        flex-direction: column;
-        position: static;
-    }
-    header nav ul{
-        flex-direction: column;
-        text-align: center;
-    }
-    header nav ul li{
-        margin: 0;
-    }
-}
 
-@media screen  and (max-width:500px){
-    header{
-        flex-direction: column;
-        position: static;
-    }
-    header nav ul{
-        flex-direction: column;
-        text-align: center;
-    }
-    header nav ul li{
-        margin: 0;
-    }
-}
 
