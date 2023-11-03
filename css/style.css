@@ -120,6 +120,10 @@ main section h2{
 .barra:active{
     background-color: #7c7c81;
 }
+.header-barra{
+    font-size: 15px;
+    padding-top: 49px;
+}
 
 /*--------------------GALERIA------------------*/
 
@@ -147,6 +151,10 @@ main section h2{
     padding: 5px;
     
     
+}
+.carro {
+    text-align: end;
+    text-align: end;
 }
 
 /*-------------------decoracion texto---------*/
@@ -394,16 +402,21 @@ main section h2{
 
 /*----------------------------CONTACTO------------*/
 .contact {
-    
-  padding: 50px; 
-  padding-bottom: 100px;
+  text-align: center;
+  padding: 70px; 
+  padding-bottom: 130px;
 }
 .contacto-h3{
     padding: 20px;
     font-size: 25px;
     text-align: center;
 }
-
+.contacto{
+    text-align: center;
+}
+.contacto h3{
+    font-size: 15px;
+}
 
 /*------------------footer---------------*/
 
@@ -439,15 +452,57 @@ main section h2{
 /*-------------------FONTS-------------------*/
 .h3{ 
     font-family: 'Poppins', sans-serif ;
+    
 }
 
 /*--------------------------Media query---------------------------*/
 
 
+@media screen and (max-width:650px){
+    .descrpicion{
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-auto-rows:220px;
+    }
+    .descrpicion div{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    .img-1{
+        grid-row: span 2;
+    }
+}
+    
 
 
+@media screen and (max-width: 978px){
+    header{
+    flex-direction: column;
+    position: static;
+}
+header nav ul{
+    text-align: center;
+    margin: 0;
+    padding: 1px;
+}
+}
+@media screen and(max-width: 650px){
+    .descrpicion img{
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+}
+    
 
+@media screen and (max-width:460px){
+    header nav ul{
+flex-direction:column;
+text-align: center;
+    }
+    header nav ul li{
+        margin: 0;
+    }
+}
 
+/*--------------------------------*/
 @media screen and (max-width:800px){
     .prod1 {
         flex-direction: column;
@@ -456,5 +511,6 @@ main section h2{
 
    
 }
-
-
+ @media screen {
+    
+ }

@@ -8,65 +8,26 @@
     <title>Bootstrap Example</title>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   </head>
-    <header>
-    
-    <main>
-        <nav class=" navbar navbar-dark bg-dark fixed-top">
-            <div class="d-inline-block ">
-                 <li><a class="navbar-brand barra" href="">Vogue Flawless</a></li>
-                        
-                    
-             </div>      
-                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-                <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Vogue Flawless</h5>
-                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="./inicio.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="./servicios.html">Servicios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./contacto.html">Contacto</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="./nosotros.html">Nosotros</a>
-                      </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Productos
-                      </a>
-                      <ul class="dropdown-menu dropdown-menu-dark">
-                        <li><a class="dropdown-item" href="./productos2.html">Hombre</a></li>
-                        <li><a class="dropdown-item" href="./productos3.html">Mujer</a></li>
-                        <li>
-                          <hr class="dropdown-divider">
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
-                  <form class="d-flex mt-3" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-light" type="submit">Search</button>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </nav>
-        </header>
-        <body class="p-3 m-0 border-0 bd-example m-0 border-0">
+  <header>
+    <h1>Vogue Flawless</h1>
+    <nav >
+        <ul>
+            <li class="barra"><a href="../index.html">Inicio</a></li>
+            <li class="barra"><a href="../pages/inicio.html">Home</a></li>
+            <li class="barra"><a href="./productos.html">Productos</a></li>
+            <li class="barra"><a href="./productos2.html">Hombre</a></li>
+            <li class="barra"><a href="./productos3.html">Mujer</a></li>
+            <li class="barra"><a href="./nosotros.html">Nosotros</a></li>
+            <li class="barra"><a href="./contacto.html">Contactos</a></li>
+        </ul>
+   </nav>
+</header>
+        <body>
         <h3 class="contacto-h3">Buenas, en este sector podes contactarnos para poder comprar el articulo q mas te haya gustado de nuestro shop o depositar todas tus dudas.
             
         </h3>
         <h3 class="contacto-h3">Gracias por elegir esta pagina, esperamos poder ayudarte con lo que necesites.</h3>
-    
+   <main>
     <section class="contact">
         <form action="" method="" enctype="">
             
@@ -130,7 +91,34 @@
                 <input type="reset">
             </div>
         </section>
-        </main >
+        <section>
+            <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../img/bannerr (1).jpeg" class="width: 100px"  alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../img/bannerr (3).jpeg" class="width: 100px" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../img/bannerr (5).jpeg" class="width: 100px " alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <h3 class="carro">Las mejores prendas con la mejor calidad se encuentran en Vogue Flawless, visita nuestra tienda y conoce nuestros productos.
+            </h3>
+               </main>
+               <main>
+                
+               </main> 
     
         <footer class="pie">
             <div>
