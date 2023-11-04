@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Santiago</h1>
-<h3 align="center">Soy un apasionado desarrollador web que se dedica a la creación de sitios web atractivos y funcionales. Mi objetivo es combinar una sólida base técnica con una creatividad excepcional para ofrecer soluciones web que superen las expectativas de mis clientes.</h3>
+<h3 align="center">I am a passionate web developer dedicated to creating attractive and functional websites. My goal is to combine a solid technical foundation with exceptional creativity to deliver web solutions that exceed my clients' expectations..</h3>
 
 - 🔭 I’m currently studying on **Informatics Engineering at UADE**
 
